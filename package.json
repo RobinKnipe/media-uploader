@@ -12,5 +12,8 @@
     "server"
   ],
   "author": "Robin Knipe",
-  "license": "GNU General Public License v3.0"
+  "license": "GNU General Public License v3.0",
+  "devDependencies": {
+    "chimp": "^0.50.0"
+  }
 }
