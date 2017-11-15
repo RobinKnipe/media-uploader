@@ -13,6 +13,9 @@
   ],
   "author": "Robin Knipe",
   "license": "GNU General Public License v3.0",
+  "scripts": {
+    "features": "chimp --browser=firefox --path=test/features --trustAllSSLCertificates"
+  },
   "devDependencies": {
     "chimp": "^0.50.0"
   }
