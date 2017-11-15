@@ -4,7 +4,7 @@ const assert = require('assert');
 
 module.exports = function basicTest() {
   this.Given(/^the server is running$/, () => {
-    // start the server
+    require('../../../server');
   });
 
   this.When(/^I connect to the server$/, () => {
