@@ -7,7 +7,7 @@ const app = express();
 // test page
 app.get('/', (req, res) => {
   console.log('sending response...');
-  res.send('to do');
+  res.send('<html><body>Hello World!</body></html>');
 });
 
 // start the server
