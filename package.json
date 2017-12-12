@@ -1,0 +1,25 @@
+{
+  "name": "media-uploader",
+  "version": "0.0.0",
+  "description": "Media file uploader that helps to catalogue and store media files on a server.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RobinKnipe/media-uploader"
+  },
+  "keywords": [
+    "media",
+    "catalogue",
+    "server"
+  ],
+  "author": "Robin Knipe",
+  "license": "GNU General Public License v3.0",
+  "scripts": {
+    "features": "chimp --browser=firefox --path=test/features --trustAllSSLCertificates"
+  },
+  "devDependencies": {
+    "chimp": "^0.50.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
